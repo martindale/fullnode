@@ -30,11 +30,11 @@ if (!process.env.FULLNODE_JS_WORKER_FILE) {
 }
 
 if (!process.env.FULLNODE_JS_BUNDLE_MIN_FILE) {
-  process.env.FULLNODE_JS_BUNDLE_MIN_FILE = 'fullnode-min.js';
+  process.env.FULLNODE_JS_BUNDLE_MIN_FILE = 'fullnode.min.js';
 }
 
 if (!process.env.FULLNODE_JS_WORKER_MIN_FILE) {
-  process.env.FULLNODE_JS_WORKER_MIN_FILE = 'fullnode-worker-min.js';
+  process.env.FULLNODE_JS_WORKER_MIN_FILE = 'fullnode-worker.min.js';
 }
 
 gulp.task('build-bundle', function() {
